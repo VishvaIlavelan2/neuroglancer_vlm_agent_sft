@@ -1,0 +1,38 @@
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.neuroglancer-state-editor {
+  width: 80%;
+}
+
+.close-button {
+  position: absolute;
+  right: 15px;
+}
+
+.record-button {
+  position: absolute;
+  right: 70px;
+}
+.record-button.active {
+  background-color: green; /* Green background when active (recording) */
+  color: white;  /* White text when active */
+}
+
+.record-button:not(.active) {
+  background-color: rgb(255, 255, 255); /* White background when not active */
+  color: black;  /* Black text when not active */
+}

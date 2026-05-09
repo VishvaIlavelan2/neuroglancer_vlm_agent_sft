@@ -1,0 +1,16 @@
+node_modules
+dist
+python
+templates/neuroglancer/sliceview
+src/third_party/jpgjs/jpg.js
+templates
+build
+.tox
+.nox
+/lib
+python
+config
+typings
+src/mesh/draco/stub.js
+tsconfig.tsbuildinfo
+/examples
