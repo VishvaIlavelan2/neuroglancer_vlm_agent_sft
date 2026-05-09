@@ -1,0 +1,6 @@
+[
+    {"id": 1, "name": "Original", "x": 143944, "y": 61076, "z": 192,  "category": "Low-Z", "segment_id": "720575940603464672"},
+    {"id": 2, "name": "SegB",     "x": 145597, "y": 64135, "z": 108,  "category": "Low-Z", "segment_id": "720575940615862389"},
+    {"id": 3, "name": "SegC",     "x": 143828, "y": 61503, "z": 117,  "category": "Low-Z", "segment_id": "720575940630914858"},
+    {"id": 4, "name": "SegD",     "x": 144623, "y": 59532, "z": 71,   "category": "Low-Z", "segment_id": "720575940623617973"}
+]

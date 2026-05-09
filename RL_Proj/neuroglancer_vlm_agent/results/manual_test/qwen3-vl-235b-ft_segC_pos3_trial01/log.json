@@ -1,0 +1,240 @@
+[
+  {
+    "step": 1,
+    "position_before": [
+      143978.0,
+      61803.0,
+      167.0
+    ],
+    "action": {
+      "delta_x": 150.0,
+      "delta_y": 300.0,
+      "delta_z": 50.0
+    },
+    "raw_response": "{\"delta_x\": 150.0, \"delta_y\": 300.0, \"delta_z\": 50.0}",
+    "position_after": [
+      143978,
+      61803,
+      167
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 2,
+    "position_before": [
+      144228.0,
+      62053.0,
+      217.0
+    ],
+    "action": {
+      "delta_x": 250.0,
+      "delta_y": 250.0,
+      "delta_z": 50.0
+    },
+    "raw_response": "{\"delta_x\": 250.0, \"delta_y\": 250.0, \"delta_z\": 50.0}",
+    "position_after": [
+      144228,
+      62053,
+      217
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 3,
+    "position_before": [
+      144328.0,
+      62303.0,
+      267.0
+    ],
+    "action": {
+      "delta_x": 100.0,
+      "delta_y": 250.0,
+      "delta_z": 50.0
+    },
+    "raw_response": "{\"delta_x\": 100.0, \"delta_y\": 250.0, \"delta_z\": 50.0}",
+    "position_after": [
+      144328,
+      62303,
+      267
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 4,
+    "position_before": [
+      144578.0,
+      62603.0,
+      317.0
+    ],
+    "action": {
+      "delta_x": 250.0,
+      "delta_y": 300.0,
+      "delta_z": 50.0
+    },
+    "raw_response": "{\"delta_x\": 250.0, \"delta_y\": 300.0, \"delta_z\": 50.0}",
+    "position_after": [
+      144578,
+      62603,
+      317
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 5,
+    "position_before": [
+      144628.0,
+      62953.0,
+      367.0
+    ],
+    "action": {
+      "delta_x": 50.0,
+      "delta_y": 350.0,
+      "delta_z": 50.0
+    },
+    "raw_response": "{\"delta_x\": 50.0, \"delta_y\": 350.0, \"delta_z\": 50.0}",
+    "position_after": [
+      144628,
+      62953,
+      367
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 6,
+    "position_before": [
+      144878.0,
+      63403.0,
+      417.0
+    ],
+    "action": {
+      "delta_x": 250.0,
+      "delta_y": 450.0,
+      "delta_z": 50.0
+    },
+    "raw_response": "{\"delta_x\": 250.0, \"delta_y\": 450.0, \"delta_z\": 50.0}",
+    "position_after": [
+      144878,
+      63403,
+      417
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 7,
+    "position_before": [
+      144978.0,
+      63803.0,
+      467.0
+    ],
+    "action": {
+      "delta_x": 100.0,
+      "delta_y": 400.0,
+      "delta_z": 50.0
+    },
+    "raw_response": "{\"delta_x\": 100.0, \"delta_y\": 400.0, \"delta_z\": 50.0}",
+    "position_after": [
+      144978,
+      63803,
+      467
+    ],
+    "z_delta": 50,
+    "reward": 25.0,
+    "nerve_visible": "uncertain"
+  },
+  {
+    "step": 8,
+    "position_before": [
+      145328.0,
+      64153.0,
+      517.0
+    ],
+    "action": {
+      "delta_x": 350.0,
+      "delta_y": 350.0,
+      "delta_z": 50.0
+    },
+    "raw_response": "{\"delta_x\": 350.0, \"delta_y\": 350.0, \"delta_z\": 50.0}",
+    "position_after": [
+      145328,
+      64153,
+      517
+    ],
+    "z_delta": 50,
+    "reward": 25.0,
+    "nerve_visible": "uncertain"
+  },
+  {
+    "step": 9,
+    "position_before": [
+      145578.0,
+      64503.0,
+      567.0
+    ],
+    "action": {
+      "delta_x": 250.0,
+      "delta_y": 350.0,
+      "delta_z": 50.0
+    },
+    "raw_response": "{\"delta_x\": 250.0, \"delta_y\": 350.0, \"delta_z\": 50.0}",
+    "position_after": [
+      145578,
+      64503,
+      567
+    ],
+    "z_delta": 50,
+    "reward": -1.0,
+    "nerve_visible": "not_visible"
+  },
+  {
+    "step": 10,
+    "position_before": [
+      145628.0,
+      64903.0,
+      617.0
+    ],
+    "action": {
+      "delta_x": 50.0,
+      "delta_y": 400.0,
+      "delta_z": 50.0
+    },
+    "raw_response": "{\"delta_x\": 50.0, \"delta_y\": 400.0, \"delta_z\": 50.0}",
+    "position_after": [
+      145628,
+      64903,
+      617
+    ],
+    "z_delta": 50,
+    "reward": -1.0,
+    "nerve_visible": "not_visible"
+  },
+  {
+    "step": 11,
+    "position_before": [
+      145628,
+      64903,
+      617
+    ],
+    "action": null,
+    "raw_response": null,
+    "position_after": [
+      145628,
+      64903,
+      617
+    ],
+    "z_delta": 0.0,
+    "nerve_visible": "not_visible",
+    "early_stop": true
+  }
+]

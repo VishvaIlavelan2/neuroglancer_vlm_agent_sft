@@ -1,0 +1,726 @@
+[
+  {
+    "step": 1,
+    "position_before": [
+      145597,
+      64135,
+      208
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 100
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 100}",
+    "position_after": [
+      145597,
+      64135,
+      208
+    ],
+    "z_delta": 100,
+    "reward": 100.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 2,
+    "position_before": [
+      145597,
+      64135,
+      258
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      258
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 3,
+    "position_before": [
+      145597,
+      64135,
+      308
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      308
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 4,
+    "position_before": [
+      145597,
+      64135,
+      358
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      358
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 5,
+    "position_before": [
+      145597,
+      64135,
+      408
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      408
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 6,
+    "position_before": [
+      145597,
+      64135,
+      458
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      458
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 7,
+    "position_before": [
+      145597,
+      64135,
+      508
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      508
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 8,
+    "position_before": [
+      145597,
+      64135,
+      558
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      558
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 9,
+    "position_before": [
+      145597,
+      64135,
+      608
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      608
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 10,
+    "position_before": [
+      145597,
+      64135,
+      658
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      658
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 11,
+    "position_before": [
+      145597,
+      64135,
+      708
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      708
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 12,
+    "position_before": [
+      145597,
+      64135,
+      758
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      758
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 13,
+    "position_before": [
+      145597,
+      64135,
+      808
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      808
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 14,
+    "position_before": [
+      145597,
+      64135,
+      858
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      858
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 15,
+    "position_before": [
+      145597,
+      64135,
+      908
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      908
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 16,
+    "position_before": [
+      145597,
+      64135,
+      958
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      958
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 17,
+    "position_before": [
+      145597,
+      64135,
+      1008
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145597,
+      64135,
+      1008
+    ],
+    "z_delta": 50,
+    "reward": 25.0,
+    "nerve_visible": "uncertain"
+  },
+  {
+    "step": 18,
+    "position_before": [
+      145597,
+      64135,
+      978
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": -30
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": -30}",
+    "position_after": [
+      145597,
+      64135,
+      978
+    ],
+    "z_delta": -30,
+    "reward": -1.0,
+    "nerve_visible": "not_visible"
+  },
+  {
+    "step": 19,
+    "position_before": [
+      145097,
+      63835,
+      978
+    ],
+    "action": {
+      "delta_x": -500,
+      "delta_y": -300,
+      "delta_z": 0,
+      "done": false
+    },
+    "raw_response": "{\"delta_x\": -500, \"delta_y\": -300, \"delta_z\": 0, \"done\": false}",
+    "position_after": [
+      145097,
+      63835,
+      978
+    ],
+    "z_delta": 0,
+    "reward": -1.0,
+    "nerve_visible": "not_visible"
+  },
+  {
+    "step": 20,
+    "position_before": [
+      145097,
+      63835,
+      928
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": -50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": -50}",
+    "position_after": [
+      145097,
+      63835,
+      928
+    ],
+    "z_delta": -50,
+    "reward": -25.0,
+    "nerve_visible": "uncertain"
+  },
+  {
+    "step": 21,
+    "position_before": [
+      145097,
+      63835,
+      978
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145097,
+      63835,
+      978
+    ],
+    "z_delta": 50,
+    "reward": 50.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 22,
+    "position_before": [
+      145097,
+      63835,
+      1028
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145097,
+      63835,
+      1028
+    ],
+    "z_delta": 50,
+    "reward": 25.0,
+    "nerve_visible": "uncertain"
+  },
+  {
+    "step": 23,
+    "position_before": [
+      145097,
+      63835,
+      998
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": -30
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": -30}",
+    "position_after": [
+      145097,
+      63835,
+      998
+    ],
+    "z_delta": -30,
+    "reward": -1.0,
+    "nerve_visible": "not_visible"
+  },
+  {
+    "step": 24,
+    "position_before": [
+      145097,
+      63835,
+      988
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": -10
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": -10}",
+    "position_after": [
+      145097,
+      63835,
+      988
+    ],
+    "z_delta": -10,
+    "reward": -5.0,
+    "nerve_visible": "uncertain"
+  },
+  {
+    "step": 25,
+    "position_before": [
+      145097,
+      63835,
+      968
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": -20
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": -20}",
+    "position_after": [
+      145097,
+      63835,
+      968
+    ],
+    "z_delta": -20,
+    "reward": -1.0,
+    "nerve_visible": "not_visible"
+  },
+  {
+    "step": 26,
+    "position_before": [
+      145097,
+      63835,
+      1018
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      145097,
+      63835,
+      1018
+    ],
+    "z_delta": 50,
+    "reward": 25.0,
+    "nerve_visible": "uncertain"
+  },
+  {
+    "step": 27,
+    "position_before": [
+      145097,
+      63835,
+      988
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": -30
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": -30}",
+    "position_after": [
+      145097,
+      63835,
+      988
+    ],
+    "z_delta": -30,
+    "reward": -1.0,
+    "nerve_visible": "not_visible"
+  },
+  {
+    "step": 28,
+    "position_before": [
+      144597,
+      63535,
+      988
+    ],
+    "action": {
+      "delta_x": -500,
+      "delta_y": -300,
+      "delta_z": 0,
+      "done": false
+    },
+    "raw_response": "{\"delta_x\": -500, \"delta_y\": -300, \"delta_z\": 0, \"done\": false}",
+    "position_after": [
+      144597,
+      63535,
+      988
+    ],
+    "z_delta": 0,
+    "reward": -1.0,
+    "nerve_visible": "not_visible"
+  },
+  {
+    "step": 29,
+    "position_before": [
+      144797,
+      63635,
+      1038
+    ],
+    "action": {
+      "delta_x": 200,
+      "delta_y": 100,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 200, \"delta_y\": 100, \"delta_z\": 50}",
+    "position_after": [
+      144797,
+      63635,
+      1038
+    ],
+    "z_delta": 50,
+    "reward": 25.0,
+    "nerve_visible": "uncertain"
+  },
+  {
+    "step": 30,
+    "position_before": [
+      144797,
+      63635,
+      1088
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": 50
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}",
+    "position_after": [
+      144797,
+      63635,
+      1088
+    ],
+    "z_delta": 50,
+    "reward": 25.0,
+    "nerve_visible": "uncertain"
+  },
+  {
+    "step": 31,
+    "position_before": [
+      144797,
+      63635,
+      1058
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": -30
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": -30}",
+    "position_after": [
+      144797,
+      63635,
+      1058
+    ],
+    "z_delta": -30,
+    "reward": -1.0,
+    "nerve_visible": "not_visible"
+  },
+  {
+    "step": 32,
+    "position_before": [
+      144797,
+      63635,
+      1028
+    ],
+    "action": {
+      "delta_x": 0,
+      "delta_y": 0,
+      "delta_z": -30
+    },
+    "raw_response": "{\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": -30}",
+    "position_after": [
+      144797,
+      63635,
+      1028
+    ],
+    "z_delta": -30,
+    "reward": -1.0,
+    "nerve_visible": "not_visible"
+  },
+  {
+    "step": 33,
+    "position_before": [
+      144797,
+      63635,
+      1028
+    ],
+    "action": null,
+    "raw_response": null,
+    "position_after": [
+      144797,
+      63635,
+      1028
+    ],
+    "z_delta": 0.0,
+    "nerve_visible": "not_visible",
+    "early_stop": true
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "log_path": "C:\\Users\\vishv\\RL_Proj\\neuroglancer_vlm_sft\\training_runs\\qwen3_vl_235b_nodone_lr1e4",
+  "model_name": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+  "load_checkpoint_path": null,
+  "renderer_name": null,
+  "dataset_builder": {
+    "common_config": {
+      "model_name_for_tokenizer": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+      "renderer_name": "qwen3_vl_instruct",
+      "max_length": 262144,
+      "batch_size": 5,
+      "train_on_what": null
+    },
+    "file_path": "C:\\Users\\vishv\\RL_Proj\\neuroglancer_vlm_sft\\data\\neuroglancer_tinker_sft_conversations.jsonl",
+    "test_size": 0,
+    "shuffle_seed": 0
+  },
+  "learning_rate": 0.0001,
+  "lr_schedule": "linear",
+  "num_epochs": 2,
+  "lora_rank": 8,
+  "base_url": null,
+  "evaluator_builders": [],
+  "infrequent_evaluator_builders": [],
+  "save_every": 57,
+  "eval_every": 150,
+  "infrequent_eval_every": 100,
+  "ttl_seconds": 604800,
+  "rolling_save_every": 0,
+  "rolling_ttl_seconds": 7200,
+  "adam_beta1": 0.9,
+  "adam_beta2": 0.95,
+  "adam_eps": 1e-08,
+  "wandb_project": null,
+  "wandb_name": null,
+  "enable_trace": false,
+  "span_chart_every": 0,
+  "max_steps": null
+}

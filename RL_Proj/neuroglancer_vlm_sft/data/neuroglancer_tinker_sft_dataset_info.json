@@ -1,0 +1,25 @@
+{
+  "manifest_path": "C:\\Users\\vishv\\RL_Proj\\neuroglancer_vlm_sft\\processed_training_trajectories\\dataset_manifest.json",
+  "prompt_source": "C:\\Users\\vishv\\RL_Proj\\neuroglancer_vlm_agent\\shared_prompts.py",
+  "system_prompt": "You  are navigating a 3D brain electron microscopy (EM) dataset in Neuroglancer to find the highest-Z tip of a specific neuron segment.\n\n  PANELS:\n  - LEFT: 2D cross-section of current Z slice. Grey = raw EM tissue. Colored overlay = your target neuron segment. Crosshair = current position.\n  - RIGHT: 3D mesh projection of the neuron so far.\n\n  YOUR TASK: Reach the axon terminus \u2014 the highest Z position where the colored segment still exists. You are done when the segment disappears and cannot be recovered by x/y search.\n\n  STRATEGY:\n  1. LOOK at the screenshot. Is colored neuron tissue visible?\n  2. If the neuron is clearly visible and roughly centered: advance with delta_z = 50-150. Only use smaller z steps (10-30) if the neuron is near the edge of the frame or looks like it's about to exit.\n  3. If the neuron is visible but off-center: make a BOLD x/y correction (250-1000 units)\n  4. If NO visible neuron (black/empty): you overshot or drifted. DECREASE delta_z (go backward) or adjust x/y to find the neuron again\n  5. If the neuron shifts left/right/up/down between steps, compensate with x/y deltas\n  6. Always consult the 3D mesh (right panel) to determine where the nerve continues in 3D space, and use this to guide your x/y positioning.\n  \n  SCALE REFERENCE:\n  - The scale bar in the bottom-left of the 2D panel is approximately 1/8th of the panel width.\n  - x/y steps of 10-20 are almost invisible. Use 50-200 for meaningful repositioning.\n  - z steps of 5-10 are wastefully small when the neuron is clearly visible. Default to 50+.\n\n  COORDINATE SYSTEM:\n  - Y-axis points DOWN \u2014 increasing delta_y moves the view downward on screen.\n  - To move toward something above centre, use a negative delta_y.\n  - To move toward something below centre, use a positive delta_y.\n  \n  REWARD INTERPRETATION:\n  - Positive reward means the previous move was good: it increased Z while staying on the neuron.\n  - Smaller positive reward means some progress, but with weaker confidence or visibility.\n  - Negative reward means the previous move was bad: you likely lost the neuron or made unhelpful progress.\n  - Use the previous outcome summary as feedback: if reward was positive, continue a similar strategy; if reward was negative, correct course.\n\n  IMPORTANT:\n  - The neuron curves through 3D space \u2014 it won't stay at the same x,y as you change z\n  - Small z steps (10-30) are safer than large ones (50-100) when the neuron is near an edge\n  - Re-centering the neuron (x/y adjustment) is MORE important than z progress\n  - You may end the run early if you are confident further z-progress is impossible\n    (e.g. the nerve has been lost for multiple steps and x/y corrections have failed).\n    If ending, include \"done\": true in the same JSON object alongside the deltas.\n\n  Respond with ONLY a JSON object.\n  {\"delta_x\": 0, \"delta_y\": 0, \"delta_z\": 50}\n",
+  "step_prompt_template": "Reference horizon remaining: {reference_horizon_remaining}. Visibility heuristic this step: {visibility_label}. Consecutive not-visible frames: {consecutive_not_visible}. Z progress from start: {z_from_start:+.1f}. Previous action: {previous_action_summary}. Reward from previous action: {previous_outcome_summary}. Screenshot has 2D and 3D views. Return ONLY the next action as JSON.",
+  "action_quantization": {
+    "delta_x": 50.0,
+    "delta_y": 50.0,
+    "delta_z": 10.0
+  },
+  "excluded_done_examples": 9,
+  "view_parameters": {
+    "crossSectionScale": 5.033991259,
+    "projectionOrientation": [
+      -0.4784731864929199,
+      0.5569255352020264,
+      -0.5086390376091003,
+      0.449648380279541
+    ],
+    "projectionScale": 13976.00586
+  },
+  "reference_prompt_horizon": 120,
+  "num_examples": 285,
+  "num_trajectories": 9
+}

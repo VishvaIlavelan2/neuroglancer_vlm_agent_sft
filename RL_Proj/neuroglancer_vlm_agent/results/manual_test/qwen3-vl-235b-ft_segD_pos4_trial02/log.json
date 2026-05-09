@@ -1,0 +1,108 @@
+[
+  {
+    "step": 1,
+    "position_before": [
+      144873.0,
+      59632.0,
+      141.0
+    ],
+    "action": {
+      "delta_x": 250.0,
+      "delta_y": 100.0,
+      "delta_z": 70.0
+    },
+    "raw_response": "{\"delta_x\": 250.0, \"delta_y\": 100.0, \"delta_z\": 70.0}",
+    "position_after": [
+      144873,
+      59632,
+      141
+    ],
+    "z_delta": 70,
+    "reward": 70.0,
+    "nerve_visible": "visible"
+  },
+  {
+    "step": 2,
+    "position_before": [
+      145173.0,
+      59732.0,
+      201.0
+    ],
+    "action": {
+      "delta_x": 300.0,
+      "delta_y": 100.0,
+      "delta_z": 60.0
+    },
+    "raw_response": "{\"delta_x\": 300.0, \"delta_y\": 100.0, \"delta_z\": 60.0}",
+    "position_after": [
+      145173,
+      59732,
+      201
+    ],
+    "z_delta": 60,
+    "reward": 30.0,
+    "nerve_visible": "uncertain"
+  },
+  {
+    "step": 3,
+    "position_before": [
+      145273.0,
+      59832.0,
+      261.0
+    ],
+    "action": {
+      "delta_x": 100.0,
+      "delta_y": 100.0,
+      "delta_z": 60.0
+    },
+    "raw_response": "{\"delta_x\": 100.0, \"delta_y\": 100.0, \"delta_z\": 60.0}",
+    "position_after": [
+      145273,
+      59832,
+      261
+    ],
+    "z_delta": 60,
+    "reward": -1.0,
+    "nerve_visible": "not_visible"
+  },
+  {
+    "step": 4,
+    "position_before": [
+      145573.0,
+      60082.0,
+      311.0
+    ],
+    "action": {
+      "delta_x": 300.0,
+      "delta_y": 250.0,
+      "delta_z": 50.0
+    },
+    "raw_response": "{\"delta_x\": 300.0, \"delta_y\": 250.0, \"delta_z\": 50.0}",
+    "position_after": [
+      145573,
+      60082,
+      311
+    ],
+    "z_delta": 50,
+    "reward": -1.0,
+    "nerve_visible": "not_visible"
+  },
+  {
+    "step": 5,
+    "position_before": [
+      145573,
+      60082,
+      311
+    ],
+    "action": null,
+    "raw_response": null,
+    "position_after": [
+      145573,
+      60082,
+      311
+    ],
+    "z_delta": 0.0,
+    "nerve_visible": "not_visible",
+    "early_stop": true
+  }
+]
